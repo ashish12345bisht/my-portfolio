@@ -1,0 +1,22 @@
+export const data=[
+    {
+        id:0,
+        heading:'heading1',
+        text:'para1'
+    },
+    {
+        id:1,
+        heading:'heading2',
+        text:'para2'
+    },
+    {
+        id:2,
+        heading:'heading3',
+        text:'para3'
+    },
+    {
+        id:3,
+        heading:'heading4',
+        text:'para4'
+    }
+]

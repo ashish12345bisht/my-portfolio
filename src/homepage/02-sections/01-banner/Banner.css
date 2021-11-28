@@ -1,0 +1,31 @@
+.banner{
+    display: flex;
+    height: 400px;
+}
+.slider{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+}
+.slide{
+    /* position: ; */
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    opacity: 0;
+    background-color: palevioletred;
+    transition: all 0.3s linear;
+}
+.nextSlide{
+    transform: translateX(100%);
+    opacity: 0;
+}
+.activeSlide{
+    transform: translateX(0%);
+    opacity: 1;
+}
+.prevSlide{
+    transform: translateX(-100%);
+    opacity: 0;
+}
