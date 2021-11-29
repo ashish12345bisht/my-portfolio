@@ -9,6 +9,7 @@ function Slide({slide,index}) {
     if(id==index-1 || (index===0 && id===3)){
         position='prevSlide'
     }
+    
     return (
         <div className={`${position} slide`}>
             <h2>{heading}</h2>

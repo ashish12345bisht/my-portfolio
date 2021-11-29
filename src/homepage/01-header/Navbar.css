@@ -3,6 +3,12 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+.logo{
+    width: 200px;
+    margin: 4% 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px green;
+}
 li{
     list-style-type: none;
 }
@@ -13,6 +19,7 @@ li a{
     font-weight: 600;
     text-shadow: 2px 2px 2px green;
     padding: 2em 1em;
+    margin: auto 1em;
 }
 li a:active{
     color: darkgreen;

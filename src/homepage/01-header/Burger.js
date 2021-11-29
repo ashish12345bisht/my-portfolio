@@ -19,7 +19,7 @@ function Burger() {
     return (
         <>
         <div className="mobile-view">
-            <img src="../00-images/logo.jpg" alt="ASHISH BISHT"/>
+            <img className="logo" src="../00-images/logo.jpg" alt="ASHISH BISHT"/>
             <button className="mobile-button" onClick={()=>setClicked(!clicked)}><FaBars/></button>
         </div>
         {clicked && <Links clicked={clicked}/>}

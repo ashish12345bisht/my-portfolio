@@ -1,0 +1,9 @@
+.image-grid{
+    display: grid;
+    padding: 6em;
+    grid-template-columns: repeat(3, 1fr);
+}
+.image img{
+    width: 25vw;
+    object-fit: contain;
+}

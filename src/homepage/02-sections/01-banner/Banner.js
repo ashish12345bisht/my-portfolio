@@ -10,17 +10,23 @@ function Banner() {
     useEffect(()=>{
         let curIndex=index;
         if(curIndex<0){
-            setIndex(2);
+            setIndex(3);
         }
-        else if(curIndex>=3){
+        else if(curIndex>3){
             setIndex(0);
         }
     },[index])
+    useEffect(()=>{
+        let slider = setInterval(()=>{
+            setIndex(index+1);
+        },5000)
+        return ()=>clearInterval(slider);
+    },[index]);
     return (
         <div className="banner">
-            <button onClick={()=>setIndex(index-1)}><BiChevronLeft/></button>
+            <button className="slider-btn-left" onClick={()=>setIndex(index-1)}><BiChevronLeft/></button>
             <Slider index={index}/>
-            <button onClick={()=>setIndex(index+1)}><BiChevronRight/></button>
+            <button className="slider-btn-right" onClick={()=>setIndex(index+1)}><BiChevronRight/></button>
         </div>
     )
 }

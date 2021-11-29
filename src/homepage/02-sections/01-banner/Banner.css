@@ -1,20 +1,20 @@
 .banner{
     display: flex;
-    height: 400px;
+    height: 500px;
 }
 .slider{
     display: flex;
     position: relative;
     width: 100vw;
+    background-color: aquamarine;
     overflow: hidden;
 }
 .slide{
-    /* position: ; */
     position: absolute;
+    text-align: center;
     height: 400px;
     width: 100%;
     opacity: 0;
-    background-color: palevioletred;
     transition: all 0.3s linear;
 }
 .nextSlide{
@@ -28,4 +28,19 @@
 .prevSlide{
     transform: translateX(-100%);
     opacity: 0;
+}
+.slider-btn-left{
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    top: 275px;
+}
+.slider-btn-right{
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    top: 275px;
+    right: 0;
 }

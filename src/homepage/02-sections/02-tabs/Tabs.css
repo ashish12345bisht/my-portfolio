@@ -1,0 +1,25 @@
+.tabs-container{
+    display: flex;
+    height: 400px;
+    width: 80vw;
+    margin: 0 auto;
+}
+.tabs{
+    position: absolute;
+    background-color: antiquewhite;
+    text-align: center;
+    width: 80vw;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin: 0 100px;
+    background-color: transparent;
+}
+.tabbuttons{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5em;
+    font-weight: 400;
+}
