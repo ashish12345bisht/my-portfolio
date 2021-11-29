@@ -6,7 +6,7 @@ import './Grid.css'
 function Grid() {
     return (
         <>
-            <h1 class="section-heading">My Certificates</h1>
+            <h1 class="section-heading spinner">My Certificates</h1>
             <div className="image-grid">
                 
                 {data.map((item)=>{

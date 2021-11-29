@@ -9,9 +9,10 @@ function Tabs() {
     const [index, setIndex]=useState(0);
     return (
         <>
+            <h1 class="section-heading spinner">My Internships</h1>
             <div className="buttons">
                 {data.map((item)=>{
-                    return <button className="tabbuttons" onClick={()=>setIndex(item.id)}>{item.company}</button>
+                    return <button className={`${(item.id===index)?"selected":"tabbuttons"}`} onClick={()=>setIndex(item.id)}>{item.company}</button>
                 })}
             </div>
             <div className="tabs-container">

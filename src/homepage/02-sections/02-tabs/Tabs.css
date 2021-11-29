@@ -8,7 +8,18 @@
     position: absolute;
     background-color: antiquewhite;
     text-align: center;
+    font-size: 1.5em;
     width: 80vw;
+    height: 400px;
+}
+.selected{
+    border-bottom: 5px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 .buttons{
     display: flex;

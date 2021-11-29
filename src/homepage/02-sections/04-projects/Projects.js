@@ -6,7 +6,7 @@ import './Projects.css'
 function Projects() {
     return (
         <>
-        <h1 className="section-heading">Some Projects </h1>
+        <h1 className="section-heading spinner">Some Projects </h1>
         <div className="projects">
             {data.map((item)=>{
                 return <Project key={item.id} item={item}/>

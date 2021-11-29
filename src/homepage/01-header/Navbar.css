@@ -1,7 +1,18 @@
 header{
-    background-color: #8BE78B;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+header:hover{
+    background-color: #272727;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.down{
+    background-color: #272727;
+    transition: all 0.5s;
 }
 .logo{
     width: 200px;

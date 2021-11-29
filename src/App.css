@@ -1,3 +1,15 @@
 .section-heading{
     text-align: center;
+    margin-top: 100px;
+}
+.spinner:hover{
+    text-align: center;
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
+@keyframes spin {
+  from { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  to { transform: rotateX(-360deg) rotateY(-360deg) rotateZ(-360deg); }
 }
