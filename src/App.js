@@ -60,7 +60,7 @@ function App() {
       {career && <Career/>}
       {personal && <Personal/>}
       {contact && <Contact/>}
-      <Footer/>
+      <Footer setValue={setValue}/>
     </>
   );
 }

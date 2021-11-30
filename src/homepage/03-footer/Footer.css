@@ -3,11 +3,12 @@
     width: 100vw;
     justify-content: space-between;
     margin-top: 50px;
-    padding: 1em 2em;
+    padding: 1em;
     background-color: #272727;
 }
 .acknowledgement{
     text-align: right;
+    padding-right: 2em;
     color: white;
 }
 .acknowledgement li{
@@ -17,14 +18,24 @@
     margin: auto 1em;
     text-align: center;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
     .acknowledgement li{
-        font-size: 1em;
+        font-size: 0.5em;
     }
     .footer{
         padding: 0;
     }
     h2{
         font-size: 1em;
+    }
+    .footer{
+        display: block;
+        padding: 0;
+    }
+    .acknowledgement{
+        text-align: center;
+    }
+    .acknowledgement li{
+        transform: translateX(-20px);
     }
 }

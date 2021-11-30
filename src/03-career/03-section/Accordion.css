@@ -7,10 +7,18 @@
     font-size: 1.5em;
     justify-content: space-between;
 }
-image{
+.acc-images{
     width: 100%;
 }
 .acc-buttons{
     border: none;
     background-color: transparent;
+}
+@media screen and (max-width:600px) {
+    .ques{
+        font-size: 1em;
+    }
+    .acc-images{
+        width: 80vw;
+    }
 }

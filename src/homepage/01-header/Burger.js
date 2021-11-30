@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 import {FaBars} from 'react-icons/fa';
 import Links from './Links';
 
-function Burger() {
+function Burger({setValue}) {
     const [clicked, setClicked]=useState(false);
     const screenSize=window.innerHeight;
     const backup=(screenSize)=>{
@@ -22,7 +22,7 @@ function Burger() {
             <img className="logo" src="../00-images/logo.jpg" alt="ASHISH BISHT"/>
             <button className="mobile-button" onClick={()=>setClicked(!clicked)}><FaBars/></button>
         </div>
-        {clicked && <Links clicked={clicked}/>}
+        {clicked && <div ><Links setValue={setValue} clicked={clicked}/></div>}
         </>
     )
 }

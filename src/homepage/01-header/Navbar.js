@@ -19,7 +19,7 @@ function Navbar({setValue}) {
     }, [])
     return (
         <header className={`${isDown && "down"}`}>
-            <Burger/>
+            <Burger setValue={setValue}/>
             <Links setValue={setValue}/>
             <Social/>
         </header>

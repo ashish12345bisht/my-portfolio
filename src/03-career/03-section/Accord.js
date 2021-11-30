@@ -11,7 +11,7 @@ function Accord({item}) {
                 <h3>{ques}</h3>
                 <button className="acc-buttons" onClick={()=>setVisible(!visible)}>{!visible?<AiOutlinePlus/>:<AiOutlineMinus/>}</button>
             </div>
-            {visible && <img src={image} alt={ques.substring(0,5)}/>}
+            {visible && <img className="acc-images" src={image} alt={ques.substring(0,5)}/>}
         </div>
     )
 }

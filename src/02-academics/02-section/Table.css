@@ -12,3 +12,11 @@ td{
 img{
     width: 10%;
 }
+@media screen and (max-width: 600px) {
+    td{
+        padding: 0;
+    }
+    table{
+        margin: 10px;
+    }
+}

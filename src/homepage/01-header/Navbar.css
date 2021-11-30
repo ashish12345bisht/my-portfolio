@@ -49,25 +49,25 @@ li a:hover{
 .mobile-button{
     display: none;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
     header{
         display: block;
         padding: 1em;
     }
     .mobile-button{
         display: block;
+        margin: auto;
+        width: 30px;
+        height: 30px;
     }
-    /* .links{
-        position: absolute;
-    } */
     .links ul{
         display: none;
     }
     .mobile-links ul{
         position: absolute;
         height: 150px;
-        width: 30vw;
-        padding: 0.5em 0em;
+        width: 45vw;
+        padding: 0.5em 0;
         background-color: #8BE78B;
         border-radius: 10px 0px 0px 10px;
         top: 70px;
@@ -76,7 +76,9 @@ li a:hover{
         flex-direction: column;
         justify-content: space-between;
     }
-    
+    li a{
+        font-size: medium;
+    }
     .social ul{
         display: none;
     }

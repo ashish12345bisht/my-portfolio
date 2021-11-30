@@ -36,4 +36,7 @@ iframe{
         display: flex;
         flex-wrap: wrap;
     }
+    iframe{
+        width: 300px;
+    }
 }

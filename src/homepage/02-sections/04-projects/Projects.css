@@ -2,7 +2,6 @@
     width: 50vw;
     height: 50vh;
     border-radius: 20px;
-    /* margin: auto; */
 }
 .iframes::-webkit-scrollbar{
     display: none;
@@ -30,4 +29,13 @@
     text-decoration: none;
     color: #272727;
 }
-
+@media screen and (max-width: 600px) {
+    .project{
+        display: block;
+        padding: 10px;
+        margin: auto;
+    }
+    .iframes{
+        width: 90vw;
+    }
+}

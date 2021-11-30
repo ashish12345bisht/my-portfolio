@@ -35,3 +35,26 @@
     font-size: 1.5em;
     font-weight: 400;
 }
+@media screen and (max-width:600px) {
+    .buttons{
+        margin: 0;
+        padding-top: 30px;
+        flex-direction: column;
+    }
+    .selected, .tabbuttons{
+        font-size: 1em;
+        margin: 10px 20%;
+        height: auto;
+    }
+    .tabs-container{
+        width: 100vw;
+        height: 300px;
+    }
+    .tabs{
+        font-size: 1em;
+        margin: 0;
+        width: 100vw;
+        height: auto;
+        transition: all 0.5s;
+    }
+}
