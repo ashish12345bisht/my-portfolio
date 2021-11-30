@@ -1,11 +1,10 @@
 import React from 'react'
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import Tab from './Tab'
 import {data} from './data'
 import './Tabs.css'
 
 function Tabs() {
-    const [visible, setVisible] = useState(false);
     const [index, setIndex]=useState(0);
     return (
         <>
@@ -17,7 +16,7 @@ function Tabs() {
             </div>
             <div className="tabs-container">
                 {data.map((item)=>{
-                    return <Tab key={item.id} item={item} visible={visible} index={index}/>
+                    return <Tab key={item.id} item={item} index={index}/>
                 })}
             </div>
         </>

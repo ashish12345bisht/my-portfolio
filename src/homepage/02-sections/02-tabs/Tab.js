@@ -1,20 +1,26 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
 
-function Tab({item, visible, index}) {
+function Tab({item, index}) {
     const {id, company, job, info} = item;
-    const [isVisible, setIsVisible]=useState(visible);
-    const checker=()=>{
+    const [isVisible, setIsVisible]=useState(false);
+    // const checker=()=>{
+    //     if(index===id){
+    //         setIsVisible(true);
+    //     }
+    //     else{
+    //         setIsVisible(false);
+    //     }
+    // }
+    useEffect(() => {
+        //checker();
         if(index===id){
             setIsVisible(true);
         }
         else{
             setIsVisible(false);
         }
-    }
-    useEffect(() => {
-        checker();
-    }, [index])
+    }, [index,id])
     return (
         <>
             {isVisible && (

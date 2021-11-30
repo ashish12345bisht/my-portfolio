@@ -3,10 +3,10 @@ import React from 'react'
 function Slide({slide,index}) {
     const {id,heading, text}=slide;
     let position='nextSlide';
-    if(id==index){
+    if(id===index){
         position='activeSlide';
     }
-    if(id==index-1 || (index===0 && id===3)){
+    if(id===index-1 || (index===0 && id===3)){
         position='prevSlide'
     }
     

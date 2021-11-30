@@ -7,7 +7,7 @@ export const data=[
     },
     {
         id: 1,
-        company: 'SociaLabs',
+        company: 'SocioLabs',
         job: 'Web Developer',
         info: 'This was my third internship where I got to know and interact with the employees and the staff for the first time. There Mr. Nayan Mittal was the CEO and he was very pleasant to work with. I was very excited for this role as I was learning things very fast here. I made wordpress themes from scratch. I was also assigned research task which were rare. Mostly i did designing work. '
     },
@@ -15,12 +15,12 @@ export const data=[
         id: 2,
         company: 'The Entrepreneurship Network',
         job: 'WordPress Developer Sr',
-        info: 'Once I did my internship as a WordPress developer. I was promoted to the post of Sr. WordPress Developer.I wasn\' assigned any work but I had to look after other fellow interns and help them in their projects. I gave me good insights of how to work as a leader and how to explain and colaborate with others while working.'
+        info: 'Once I did my internship as a WordPress developer. I was promoted to the post of Sr. WordPress Developer.I was not assigned any work but I had to look after other fellow interns and help them in their projects. I gave me good insights of how to work as a leader and how to explain and collaborate with others while working.'
     },
     {
         id: 3,
-        company: 'The Entreprenuership Network',
+        company: 'The Entrepreneurship Network',
         job: 'Web Developer',
-        info: 'This was my first internship in which i had to do work from home. I was a ssigned a WordPress website which I had to replicate and submit. It was beginner friendly and gave me good boost for my next internships.'
+        info: 'This was my first internship in which i had to do work from home. I was assigned a WordPress website which I had to replicate and submit. It was beginner friendly and gave me good boost for my next internships.'
     },
 ]
