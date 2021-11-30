@@ -30,27 +30,27 @@ export const links=[
 export const social=[
     {
         id:1,
-        url:'#',
+        url:'https://www.linkedin.com/in/ashish-bisht-4608bb183/',
         icon: <FaLinkedin/>
     },
     {
         id:2,
-        url:'#',
+        url:'https://github.com/ashish12345bisht',
         icon: <FaGithub/>
     },
     {
         id:3,
-        url:'#',
+        url:'https://leetcode.com/ashish12345bisht/',
         icon: <SiLeetcode/>
     },
     {
         id:4,
-        url:'#',
+        url:'https://www.facebook.com/badshah.bisht.779205/',
         icon: <FaFacebook/>
     },
     {
         id:5,
-        url:'#',
+        url:'https://www.instagram.com/https__ashishbisht/',
         icon: <FaInstagram/>
     },
 ]

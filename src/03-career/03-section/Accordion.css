@@ -1,0 +1,16 @@
+.accordion-container{
+    width: 80vw;
+    margin: auto;
+}
+.ques{
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-between;
+}
+image{
+    width: 100%;
+}
+.acc-buttons{
+    border: none;
+    background-color: transparent;
+}

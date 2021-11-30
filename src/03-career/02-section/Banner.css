@@ -1,0 +1,66 @@
+.banner{
+    display: flex;
+    background-image: url("../../00-images/giphy.gif");
+    background-size: contain;
+    height: 600px;
+}
+
+.slider{
+    display: flex;
+    position: relative;
+    color: white;
+    background-blend-mode: lighten;
+    width: 100vw;
+    overflow: hidden;
+}
+.slide{
+    position: absolute;
+    text-align: center;
+    padding-top: 200px;
+    height: 400px;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.slide p{
+    padding:  0 25vw;
+}
+
+.nextSlide{
+    transform: translateX(100%);
+    opacity: 0;
+}
+.activeSlide{
+    transform: translateX(0%);
+    opacity: 1;
+}
+.prevSlide{
+    transform: translateX(-100%);
+    opacity: 0;
+}
+.slider-btn-left{
+    position: absolute;
+    z-index: 1;
+    font-size: 2em;
+    width: 30px;
+    height: 30px;
+    top: 275px;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    background-color: transparent;
+}
+.slider-btn-right{
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    top: 275px;
+    right: 0;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    font-size: 2em;
+    background-color: transparent;
+}

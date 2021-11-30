@@ -1,0 +1,39 @@
+.schools{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.school{
+    text-align: center;
+    padding: 1em;
+}
+iframe{
+    width: 350px;
+    height: 40vh;
+    border-radius: 30px;
+}
+.school-btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #272727;
+    padding: 1em;
+}
+.school-btn:hover{
+    background-color: #fff;
+    color: #272727;
+    transition: all 0.5s;
+}
+.school-btn a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #fff;
+}
+.school-btn a:hover{
+    color: #272727;
+    transition: all 0.5s;
+}
+@media screen and (max-width:800px) {
+    .schools{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

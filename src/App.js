@@ -1,20 +1,65 @@
-//import logo from './logo.svg';
 import './App.css';
+import Career from './Career';
+import {useState, useEffect} from 'react'
 import Navbar from './homepage/01-header/Navbar';
-import Banner from './homepage/02-sections/01-banner/Banner';
-import Tabs from './homepage/02-sections/02-tabs/Tabs';
-import Grid from './homepage/02-sections/03-image-grid/Grid';
-import Projects from './homepage/02-sections/04-projects/Projects';
 import Footer from './homepage/03-footer/Footer';
+import Homepage from './Homepage';
+import Academics from './Academics';
+import Personal from './Personal';
+import Contact from './Contact';
 
 function App() {
+  const [home, setHome]=useState(true);
+  const [academics, setAcademics]=useState(false);
+  const [career, setCareer]=useState(false);
+  const [personal, setPersonal]=useState(false);
+  const [contact, setContact]=useState(false);
+  const [value, setValue]=useState(0);
+  useEffect(()=>{
+    if(value===1){
+      setHome(true);
+      setAcademics(false);
+      setCareer(false);
+      setPersonal(false);
+      setContact(false);
+    }
+    else if(value===2){
+      setHome(false);
+      setAcademics(true);
+      setCareer(false);
+      setPersonal(false);
+      setContact(false);
+    }
+    else if(value===3){
+      setHome(false);
+      setAcademics(false);
+      setCareer(true);
+      setPersonal(false);
+      setContact(false);
+    }
+    else if(value===4){
+      setHome(false);
+      setAcademics(false);
+      setCareer(false);
+      setPersonal(true);
+      setContact(false);
+    }
+    else if(value===5){
+      setHome(false);
+      setAcademics(false);
+      setCareer(false);
+      setPersonal(false);
+      setContact(true);
+    }
+  },[value])
   return (
     <>
-      <Navbar/>
-      <Banner/>
-      <Tabs/>
-      <Grid/>
-      <Projects/>
+      <Navbar setValue={setValue}/>
+      {home && <Homepage/>}
+      {academics && <Academics/>}
+      {career && <Career/>}
+      {personal && <Personal/>}
+      {contact && <Contact/>}
       <Footer/>
     </>
   );

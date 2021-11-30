@@ -8,7 +8,7 @@ function Social() {
                 {social.map((item)=>{
                     const {id, url, icon}=item;
                     return <li key={id}>
-                        <a href={url}>{icon}</a>
+                        <a href={url} target="blank">{icon}</a>
                     </li>
                 })}
             </ul>

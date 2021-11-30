@@ -1,0 +1,14 @@
+table{
+    width: 80vw;
+    margin: auto;
+    padding: 0.8em 0em;
+    border: 5px solid purple;
+    border-radius: 30px;
+}
+td{
+    text-align: center;
+    padding: 1em 0.5em;
+}
+img{
+    width: 10%;
+}

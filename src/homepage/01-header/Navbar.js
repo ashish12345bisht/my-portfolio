@@ -5,7 +5,7 @@ import Links from './Links';
 import Social from './Social';
 import './Navbar.css'
 
-function Navbar() {
+function Navbar({setValue}) {
     const [isDown, setIsDown]=useState(false);
     useEffect(() => {
         window.addEventListener("scroll",()=>{
@@ -20,7 +20,7 @@ function Navbar() {
     return (
         <header className={`${isDown && "down"}`}>
             <Burger/>
-            <Links/>
+            <Links setValue={setValue}/>
             <Social/>
         </header>
     )
