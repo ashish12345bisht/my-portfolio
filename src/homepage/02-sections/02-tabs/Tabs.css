@@ -25,6 +25,7 @@
 .buttons{
     display: flex;
     justify-content: space-around;
+    
     height: 100px;
     margin: 0 100px;
     background-color: transparent;
@@ -38,6 +39,7 @@
 @media screen and (max-width:600px) {
     .buttons{
         margin: 0;
+        height: 300px;
         padding-top: 30px;
         flex-direction: column;
     }

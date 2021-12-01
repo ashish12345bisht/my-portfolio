@@ -64,3 +64,9 @@
     font-size: 2em;
     background-color: transparent;
 }
+@media screen and (max-width:600px){
+    .slide p{
+        padding: 50px;
+        font-size: 0.7em;
+    }
+}

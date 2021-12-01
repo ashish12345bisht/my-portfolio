@@ -13,7 +13,7 @@ function Tabs() {
             <section className="up-tabs">
                 <div className="buttons-2">
                     {data.map((item)=>{
-                        return <button className={`${(item.id===index)?"selected":"tabbuttons"}`} onClick={()=>setIndex(item.id)}>{item.company}</button>
+                        return <button className={`${(item.id===index)?"selected-2":"tabbuttons-2"}`} onClick={()=>setIndex(item.id)}>{item.company}</button>
                     })}
                 </div>
                 <div className="tabs-container-2">
