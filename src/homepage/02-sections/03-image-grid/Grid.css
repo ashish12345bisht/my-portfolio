@@ -1,10 +1,10 @@
 .image-grid{
     display: grid;
     padding: 6em;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 .image img{
-    width: 25vw;
+    width: 400px;
     object-fit: contain;
 }
 @media screen and (max-width: 600px) {
