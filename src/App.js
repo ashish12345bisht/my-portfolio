@@ -7,6 +7,7 @@ import Homepage from './Homepage';
 import Academics from './Academics';
 import Personal from './Personal';
 import Contact from './Contact';
+import Scrollup from './Scrollup';
 
 function App() {
   const [home, setHome]=useState(true);
@@ -60,6 +61,7 @@ function App() {
       {career && <Career/>}
       {personal && <Personal/>}
       {contact && <Contact/>}
+      <Scrollup/>
       <Footer setValue={setValue}/>
     </>
   );
