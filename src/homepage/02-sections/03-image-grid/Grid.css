@@ -1,17 +1,24 @@
-.image-grid{
-    display: grid;
-    padding: 6em;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+.image-grid {
+  display: grid;
+  padding: 6em;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
-.image img{
-    width: 400px;
-    object-fit: contain;
+.image img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
 }
+.image img:hover {
+  scale: 1.5;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
 @media screen and (max-width: 600px) {
-    .image-grid{
-        padding: 10px;
-    }
-    .image img{
-        width: 100%;
-    }
+  .image-grid {
+    padding: 10px;
+  }
+  .image img {
+    width: 100%;
+  }
 }

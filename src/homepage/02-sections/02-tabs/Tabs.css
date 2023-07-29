@@ -1,62 +1,66 @@
-.tabs-container{
-    display: flex;
-    height: 400px;
-    width: 80vw;
-    margin: 0 auto;
+.tabs-container {
+  display: flex;
+  height: 400px;
+  width: 80vw;
+  margin: 0 auto;
 }
-.tabs{
-    position: absolute;
-    background-color: antiquewhite;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 1.5em;
-    width: 80vw;
-    height: 400px;
+.tabs {
+  position: absolute;
+  background-color: antiquewhite;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 1.5em;
+  width: 80vw;
+  height: 400px;
 }
-.selected{
-    border-bottom: 5px solid black;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    background-color: transparent;
-    font-size: 1.5em;
-    font-weight: 400;
+.selected {
+  border-bottom: 5px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: transparent;
+  font-size: 1.5em;
+  font-weight: 400;
 }
-.buttons{
-    display: flex;
-    justify-content: space-around;
-    
-    height: 100px;
-    margin: 0 100px;
-    background-color: transparent;
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  height: 100px;
+  margin: 0 100px;
+  background-color: transparent;
 }
-.tabbuttons{
-    border: none;
-    background-color: transparent;
-    font-size: 1.5em;
-    font-weight: 400;
+.tabbuttons {
+  border: none;
+  background-color: transparent;
+  font-size: 1.5em;
+  font-weight: 400;
 }
-@media screen and (max-width:600px) {
-    .buttons{
-        margin: 0;
-        height: 300px;
-        padding-top: 30px;
-        flex-direction: column;
-    }
-    .selected, .tabbuttons{
-        font-size: 1em;
-        margin: 10px 20%;
-        height: auto;
-    }
-    .tabs-container{
-        width: 100vw;
-        height: 300px;
-    }
-    .tabs{
-        font-size: 1em;
-        margin: 0;
-        width: 100vw;
-        height: auto;
-        transition: all 0.5s;
-    }
+@media screen and (max-width: 600px) {
+  .buttons {
+    margin: 0;
+    height: 300px;
+    padding-top: 30px;
+    flex-direction: column;
+  }
+  .selected,
+  .tabbuttons {
+    font-size: 1em;
+    margin: 10px 20%;
+    height: auto;
+  }
+  .tabs-container {
+    width: 100vw;
+    height: 300px;
+  }
+  .tabs {
+    font-size: 1em;
+    margin: 0;
+    width: 100vw;
+    height: auto;
+    transition: all 0.5s;
+  }
+}
+.list-container {
+  list-style-type: disc !important;
 }
