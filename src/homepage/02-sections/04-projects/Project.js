@@ -7,7 +7,7 @@ function Project({ item }) {
             <iframe scrolling="no" src={url} title={id} className="iframes">{name}</iframe>
             <div class="right">
                 <h3>{name}</h3>
-                <button className="project-button"><a href={url} target='_blank'>Go To Full Project</a></button>
+                <button className="project-button"><a href={url} rel="noreferrer" target='_blank'>Go To Full Project</a></button>
                 <p>{info}</p>
             </div>
 
