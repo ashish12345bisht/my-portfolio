@@ -7,10 +7,10 @@ import Projects from './homepage/02-sections/04-projects/Projects';
 function Homepage() {
   return (
     <>
-      <Banner/>
-      <Tabs/>
-      <Grid/>
-      <Projects/>
+      <Banner />
+      <Tabs />
+      <Grid />
+      <Projects />
     </>
   );
 }

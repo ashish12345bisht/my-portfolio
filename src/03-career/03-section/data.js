@@ -1,17 +1,21 @@
+import CertificateofcompletionatSociolabs from '../../assets/00-images/sociolabs certificate.PNG';
+import CertificateofcompletionatTheEntrepreneurshipNetworkSeniorExecutive from '../../assets/00-images/TEN TL Certificate.PNG';
+import CertificateofcompletionatTheEntrepreneurshipNetwork from '../../assets/00-images/TEN certicficate.PNG';
+
 export const data = [
     {
-        id:1,
+        id: 1,
         ques: 'Certificate of completion at Sociolabs',
-        image: '/00-images/sociolabs certificate.PNG'
+        image: CertificateofcompletionatSociolabs
     },
     {
-        id:2,
+        id: 2,
         ques: 'Certificate of completion at The Entrepreneurship Network - Senior Executive',
-        image: '/00-images/TEN TL Certificate.PNG'
+        image: CertificateofcompletionatTheEntrepreneurshipNetworkSeniorExecutive
     },
     {
-        id:3,
+        id: 3,
         ques: 'Certificate of completion at The Entrepreneurship Network',
-        image: '/00-images/TEN certicficate.PNG'
-    },
+        image: CertificateofcompletionatTheEntrepreneurshipNetwork
+    }
 ]

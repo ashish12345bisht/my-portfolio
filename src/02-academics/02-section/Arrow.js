@@ -1,9 +1,10 @@
 import React from 'react'
+import arrow from '../../assets/00-images/arrow.png'
 
 function Arow() {
     return (
         <td>
-            <img src="/00-images/arrow.png" alt="arrow"/>
+            <img src={arrow} alt="arrow" />
         </td>
     )
 }
