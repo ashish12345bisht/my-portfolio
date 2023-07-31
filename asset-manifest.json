@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2d52d66f.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.e9fdf61e.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.e9fdf61e.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.eda472e0.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.eda472e0.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.4143c445.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.4143c445.js.map",
     "static/js/2.7707ae56.chunk.js": "/my-portfolio/static/js/2.7707ae56.chunk.js",
@@ -10,12 +10,26 @@
     "index.html": "/my-portfolio/index.html",
     "static/css/main.2d52d66f.chunk.css.map": "/my-portfolio/static/css/main.2d52d66f.chunk.css.map",
     "static/js/2.7707ae56.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.7707ae56.chunk.js.LICENSE.txt",
-    "static/media/Banner.css": "/my-portfolio/static/media/giphy.503d1636.gif"
+    "static/media/CSS-certificate.511fcb82.jpg": "/my-portfolio/static/media/CSS-certificate.511fcb82.jpg",
+    "static/media/Coursera-Capstone-Image.826133da.jpg": "/my-portfolio/static/media/Coursera-Capstone-Image.826133da.jpg",
+    "static/media/Js-certificate.90f3a39f.PNG": "/my-portfolio/static/media/Js-certificate.90f3a39f.PNG",
+    "static/media/META-Capstone-image.3ec5716f.jpg": "/my-portfolio/static/media/META-Capstone-image.3ec5716f.jpg",
+    "static/media/ML-certificate.86afac7b.PNG": "/my-portfolio/static/media/ML-certificate.86afac7b.PNG",
+    "static/media/Python-udemy-certificate.d0fd6275.jpg": "/my-portfolio/static/media/Python-udemy-certificate.d0fd6275.jpg",
+    "static/media/Sociolabs-certificate.b8a48298.PNG": "/my-portfolio/static/media/Sociolabs-certificate.b8a48298.PNG",
+    "static/media/TEN TL Certificate.2833eb40.PNG": "/my-portfolio/static/media/TEN TL Certificate.2833eb40.PNG",
+    "static/media/TEN certicficate.e8778ee7.PNG": "/my-portfolio/static/media/TEN certicficate.e8778ee7.PNG",
+    "static/media/TEN-TL-Certificate.2833eb40.PNG": "/my-portfolio/static/media/TEN-TL-Certificate.2833eb40.PNG",
+    "static/media/TEN-certicficate.e8778ee7.PNG": "/my-portfolio/static/media/TEN-certicficate.e8778ee7.PNG",
+    "static/media/Wordpress-certificate.85b5bac0.PNG": "/my-portfolio/static/media/Wordpress-certificate.85b5bac0.PNG",
+    "static/media/Banner.css": "/my-portfolio/static/media/giphy.503d1636.gif",
+    "static/media/logo.c41f538a.jpg": "/my-portfolio/static/media/logo.c41f538a.jpg",
+    "static/media/sociolabs certificate.b8a48298.PNG": "/my-portfolio/static/media/sociolabs certificate.b8a48298.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.4143c445.js",
     "static/js/2.7707ae56.chunk.js",
     "static/css/main.2d52d66f.chunk.css",
-    "static/js/main.e9fdf61e.chunk.js"
+    "static/js/main.eda472e0.chunk.js"
   ]
 }
